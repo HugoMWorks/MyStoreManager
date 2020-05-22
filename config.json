@@ -1,4 +1,9 @@
 {
     "port": 8080,
-    "rootAPI": "/api/v1"
+    "rootAPI": "/api/v1",
+    "db": {
+        "hostname": "root",
+        "password": "",
+        "database": "store_manager"
+    }
 }
