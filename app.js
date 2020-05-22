@@ -14,8 +14,7 @@ mysql
     user: config.db.user,
     password: config.db.password,
     database: config.db.database,
-  })
-  .then(async (db) => {
+  }).then(async(db) => {
     // Variables globales
     let app = express();
 
